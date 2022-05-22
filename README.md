@@ -193,6 +193,14 @@ were the base name.
 
 Save and close the file when you are finished.  
 
+Go to `/etc/hosts` and add the following code
+```bash
+sudo nano /etc/hosts
+```
+add this:
+```bash
+127.0.0.1    example.com
+```
 Let's enable the file with the a2ensite tool:
 ```bash
 sudo a2ensite example.com.conf
