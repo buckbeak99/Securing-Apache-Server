@@ -1,8 +1,7 @@
 # Securing-Apache-Server
 ## Objectives:
 • To setup a secure web server using Apache and digital certificates.  
-## Submission:
-• Checkpoints that need to be shown to the course teacher.  
+ 
 ## Instruction:
 In this lab, you will setup a secure web server using Apache and digital certificates. Apache is
 the most widely-used web servers in the world. In fact, it is one of the most widely used open
