@@ -12,9 +12,7 @@ overlay has been introduced in the transport layer in 1994. It is known as Secur
 (SSL). Later it was transformed into Transport Layer Security. SSL/TLS utilises cryptographic
 mechanisms to create a secure connection within an unprotected network such as the
 Internet. Combined with the HTTP (Hypertext Transfer Protocol, the de-facto protocol for
-web), the SSL/TLS introduces the notion of HTTPS (HTTP Secure).  
-Even though we will study HTTPS in details in our web security lecture. However, for this lab,
-we present a brief overview of HTTPS next.  
+web), the SSL/TLS introduces the notion of HTTPS (HTTP Secure).    
 
 The process is very briefly described below. To establish an HTTPS session, a web browser
 sends a request to a web server with the list of supported ciphers and hash functions by the
@@ -29,8 +27,8 @@ communication. Thus, one of the crucial steps in setting up a secure web server 
 In this lab, you will perform different tasks to setup a secure web server using Apache and a
 digital certificate.  
 ## Setting up an Apache web server
-The first step to setup a secure web server is to setup an Apache web server. The following is
-a tutorial collected from: [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-toinstall-the-apache-web-server-on-ubuntu-18-04).
+The first step to setup a secure web server is to setup an Apache web server. <!--The following is
+a tutorial collected from: [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-toinstall-the-apache-web-server-on-ubuntu-18-04). -->
 ### Step 1 — Installing Apache  
 Apache is available within Ubuntu's default software repositories, making it possible to install
 it using conventional package management tools.
