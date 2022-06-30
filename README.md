@@ -357,7 +357,7 @@ certificate. In the real world, the CSR files are usually sent to a trusted CA f
 In this lab, we will use our own trusted CA to generate certificates:
 At first go to immediate directory from demoCA.
 ```bash
-cd demoCA
+cd ..
 ```
 ```bash
 openssl ca -in ./demoCA/server.csr -out ./demoCA/server.crt -cert ./demoCA/ca.crt -keyfile ./demoCA/ca.key -config ./demoCA/openssl.cnf
@@ -370,6 +370,9 @@ browsing. Next, let us launch a simple web server with the certificate generated
 previous task. OpenSSL allows us to start a simple web server using the s_server command.
 Use the following steps:  
 - Step 1: Combine the secret key and certificate into one file
+```bash
+cd demoCA
+```
 ```bash
 cp server.key server.pem
 ```
