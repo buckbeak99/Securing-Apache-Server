@@ -177,7 +177,7 @@ new directory and domain name:
     ServerAdmin admin@example.com
     ServerName example.com
     ServerAlias www.example.com
-    DocumentRoot /var/www/example.com/html
+    DocumentRoot /var/www/example.com/
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
