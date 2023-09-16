@@ -63,7 +63,7 @@ It is recommended that you enable the most restrictive profile that will still a
 you've configured. Since we haven't configured SSL for our server yet in this guide, we will
 only need to allow traffic on port 80:  
 ```bash
-sudo ufw allow 'Apache'
+sudo ufw allow 'Apache Full'
 ```
 You can verify the change by typing:
 ```bash
